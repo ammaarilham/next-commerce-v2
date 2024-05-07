@@ -1,0 +1,26 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.29.9",
+    "@payhere-js-sdk/client": "^1.0.4",
+    "axios": "^1.6.7",
+    "mongoose": "^8.1.2",
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "stripe": "^14.17.0",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3"
+  }
+}
